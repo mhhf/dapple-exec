@@ -1,0 +1,32 @@
+{
+  "commands": [
+    {
+      "name": "create",
+      "summary": "create a standalone executable from a Contract",
+      "options": [
+        {
+          "name": "<cmd_name>",
+          "summary": "name of your command"
+        },
+        {
+          "name": "<contract_object>",
+          "summary": "name of the deployed contract in your environment"
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "summary": "run a saved executable",
+      "silent": true,
+      "standalone": true,
+      "options": [
+        {
+          "name": "<cmd>"
+        },
+        {
+          "name": "<params>..."
+        }
+      ]
+    }
+  ]
+}
